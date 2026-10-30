@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#31051f">
+    <meta name="description" content="Wedding invitation of Sukrit Raj Kamal and Sanskriti Arya — 21 November 2026.">
+    <title>Sukrit Raj Kamal & Sanskriti Arya | Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --plum: #31051f;
+            --plum2: #4b0b32;
+            --wine: #681b45;
+            --rose: #c88791;
+            --rose-light: #f1c9c2;
+            --gold: #e3b65d;
+            --gold-light: #ffe6a5;
+            --ivory: #fff2e5;
+            --ink: #3a1830;
+            --muted: #795e6d;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 82px
+        }
+
+        body {
+            margin: 0;
+            background: #f7e8dc;
+            color: var(--ink);
+            font: 18px "Cormorant Garamond", serif
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        button {
+            font: inherit
+        }
+
+        .topline {
+            height: 5px;
+            background: linear-gradient(90deg, #7d3b32, var(--gold-light), #b66b75, var(--gold-light), #7d3b32)
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 30;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 18px;
+            padding: 12px clamp(16px, 4vw, 58px);
+            color: var(--gold-light);
+            background: linear-gradient(100deg, #210316, #430a2d 48%, #210316);
+            border-bottom: 1px solid #d6a44f;
+            box-shadow: 0 5px 25px #21031666
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            white-space: nowrap
+        }
+
+        .brand-mark {
+            width: 48px;
+            height: 48px;
+            border: 1px solid var(--gold);
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            color: var(--gold-light);
+            font-size: 21px;
+            box-shadow: inset 0 0 0 4px #e3b65d20
+        }
+
+        .brand-name {
+            font: 30px "Great Vibes", cursive;
+            line-height: 1.05
+        }
+
+        .brand small {
+            display: block;
+            text-align: center;
+            font: 10px "Cormorant Garamond", serif;
+            letter-spacing: 2.5px;
+            margin-top: 3px
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: clamp(10px, 2vw, 27px);
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .nav a {
+            transition: .25s;
+            color: #f6dba4
+        }
+
+        .nav a:hover {
+            color: white;
+            text-shadow: 0 0 12px #f2c66e
+        }
+
+        .nav .pill {
+            border: 1px solid var(--gold);
+            padding: 10px 18px;
+            border-radius: 30px
+        }
+
+        .menu {
+            display: none;
+            background: transparent;
+            border: 1px solid var(--gold);
+            color: var(--gold-light);
+            padding: 7px 11px;
+            font-size: 21px
+        }
+
+        .hero {
+            position: relative;
+            isolation: isolate;
+            min-height: 850px;
+            overflow: hidden;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            color: var(--gold-light);
+            padding: 90px 18px 125px;
+            background:
+                radial-gradient(ellipse at 50% 40%, #65163f 0%, #430a2e 42%, #210316 100%)
+        }
+
+        .hero:before,
+        .hero:after {
+            content: "";
+            position: absolute;
+            pointer-events: none;
+            z-index: -1
+        }
+
+        .hero:before {
+            inset: 17px;
+            border: 2px solid #d8a94e;
+            box-shadow: inset 0 0 35px #e6b95824, 0 0 28px #e6b95835
+        }
+
+        .hero:after {
+            inset: 28px;
+            border: 1px solid #f4d99b99;
+            box-shadow: inset 0 0 0 7px #e6b95812
+        }
+
+        .hero-bg-pattern {
+            position: absolute;
+            inset: 0;
+            z-index: -2;
+            opacity: .25;
+            background-image:
+                radial-gradient(circle at 10% 20%, #f7c66b 0 1px, transparent 2px),
+                radial-gradient(circle at 88% 26%, #f7c66b 0 1px, transparent 2px),
+                radial-gradient(circle at 20% 78%, #f7c66b 0 1px, transparent 2px),
+                radial-gradient(circle at 80% 82%, #f7c66b 0 1px, transparent 2px);
+            background-size: 90px 90px, 110px 110px, 130px 130px, 100px 100px
+        }
+
+        .arch {
+            position: absolute;
+            z-index: -1;
+            top: 36px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: min(780px, 78vw);
+            height: 790px;
+            border: 3px double #d6a44f;
+            border-bottom: 0;
+            border-radius: 420px 420px 0 0;
+            box-shadow: 0 0 0 10px #d6a44f12, 0 0 55px #e9b95b24, inset 0 0 65px #d6a44f18
+        }
+
+        .arch:before,
+        .arch:after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 1px solid #f4d99b99;
+            border-bottom: 0;
+            border-radius: 380px 380px 0 0
+        }
+
+        .arch:before {
+            top: 35px;
+            width: 88%;
+            height: 88%
+        }
+
+        .arch:after {
+            top: 76px;
+            width: 75%;
+            height: 78%;
+            border-color: #bd805b
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 790px;
+            padding: 28px 38px;
+            background: radial-gradient(ellipse, #3a0828d9 0%, #31051fa8 68%, transparent 100%);
+            text-shadow: 0 2px 12px #17000d99
+        }
+
+        .ganesh {
+            font: 18px "Noto Serif Devanagari", serif;
+            color: #ffe2a0;
+            margin: 0 0 16px
+        }
+
+        .eyebrow,
+        .kicker {
+            font-size: 13px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #c58a70;
+            margin: 0 0 14px
+        }
+
+        .hero .eyebrow {
+            color: #f5d79d
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 6.4vw, 78px);
+            font-weight: 500;
+            letter-spacing: 2px;
+            line-height: 1.05;
+            text-transform: uppercase;
+            color: #f5d18a;
+            margin: 15px 0 0;
+            text-shadow: 0 0 20px #e8b65b55
+        }
+
+        .amp {
+            display: block;
+            font: 62px "Great Vibes", cursive;
+            color: #ffe6a5;
+            margin: -2px 0
+        }
+
+        .bride {
+            font: clamp(48px, 7vw, 82px) "Great Vibes", cursive;
+            color: #f7d9c9;
+            margin: -4px 0 12px;
+            text-shadow: 0 0 22px #edb7a255
+        }
+
+        .hero-copy {
+            font-size: 21px;
+            font-style: italic;
+            line-height: 1.5;
+            max-width: 570px;
+            margin: 17px auto;
+            color: #fff0df
+        }
+
+        .hindi {
+            font: 16px "Noto Serif Devanagari", serif;
+            color: #a36d54
+        }
+
+        .hero .hindi {
+            color: #f4d6b1
+        }
+
+        .rule {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            color: var(--gold);
+            margin: 17px auto
+        }
+
+        .rule:before,
+        .rule:after {
+            content: "";
+            height: 1px;
+            width: 95px;
+            background: linear-gradient(90deg, transparent, var(--gold))
+        }
+
+        .rule:after {
+            transform: rotate(180deg)
+        }
+
+        .rule span {
+            font-size: 20px
+        }
+
+        .datebox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 22px;
+            max-width: 420px;
+            margin: 24px auto;
+            padding: 12px 20px;
+            border: 1px solid var(--gold);
+            outline: 1px solid #e3b65d55;
+            outline-offset: 5px;
+            background: #26021988;
+            box-shadow: 0 0 24px #e3b65d22
+        }
+
+        .datebox strong {
+            font-size: 60px;
+            line-height: 1;
+            font-weight: 500;
+            color: #ffe0a0
+        }
+
+        .datebox span {
+            font-size: 14px;
+            letter-spacing: 2px;
+            line-height: 1.4
+        }
+
+        .gold-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 13px 28px;
+            border: 1px solid #fff0bd;
+            border-radius: 30px;
+            background: linear-gradient(110deg, #b66b70, #e9b8a6, #f7d9a0, #c98a6d);
+            color: #351027;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: 0 7px 25px #14000c88, 0 0 22px #e3b65d55;
+            transition: .25s
+        }
+
+        .gold-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px #14000c99, 0 0 32px #e3b65d99
+        }
+
+        .side-note {
+            position: absolute;
+            top: 46%;
+            z-index: 1;
+            font-size: 13px;
+            letter-spacing: 2px;
+            line-height: 1.8;
+            color: #f6dca8;
+            text-transform: uppercase
+        }
+
+        .side-left {
+            left: 5%
+        }
+
+        .side-right {
+            right: 5%
+        }
+
+        .orn {
+            position: absolute;
+            color: #f1c76e;
+            font-size: 60px;
+            opacity: .85;
+            text-shadow: 0 0 15px #f1c76e
+        }
+
+        .orn.a {
+            top: 34px;
+            left: 34px
+        }
+
+        .orn.b {
+            top: 34px;
+            right: 34px;
+            transform: scaleX(-1)
+        }
+
+        .orn.c {
+            bottom: 35px;
+            left: 34px
+        }
+
+        .orn.d {
+            bottom: 35px;
+            right: 34px;
+            transform: scaleX(-1)
+        }
+
+        .eye {
+            position: absolute;
+            z-index: 3;
+            width: 74px;
+            height: 74px;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            border: 3px solid #e8bf6a;
+            background: radial-gradient(circle, #fff3db 0 8%, #a96b46 9% 16%, #2a0a22 17% 29%, #20a8c0 30% 44%, #f6e7d0 45% 55%, #b77b49 56% 64%, #25051a 65%);
+            box-shadow: 0 0 0 5px #d9aa572d, 0 0 20px #27bad2aa, 0 0 36px #e5b75b66;
+            animation: glow 3s ease-in-out infinite alternate
+        }
+
+        .eye:after {
+            content: "";
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, white 0 12%, #071521 40%);
+            box-shadow: 0 0 9px white
+        }
+
+        .eye.one {
+            left: 8%;
+            top: 32%
+        }
+
+        .eye.two {
+            right: 8%;
+            top: 32%
+        }
+
+        .eye.three {
+            left: 50%;
+            top: 47px;
+            transform: translateX(-50%);
+            width: 55px;
+            height: 55px
+        }
+
+        @keyframes glow {
+            to {
+                filter: brightness(1.22);
+                box-shadow: 0 0 0 7px #d9aa5740, 0 0 30px #27c5e0dd, 0 0 48px #e5b75baa
+            }
+        }
+
+        .section {
+            padding: 88px clamp(18px, 7vw, 110px);
+            position: relative
+        }
+
+        .center {
+            text-align: center
+        }
+
+        .section h2 {
+            font-size: clamp(35px, 4.5vw, 56px);
+            font-weight: 500;
+            color: var(--plum);
+            margin: 8px 0 18px
+        }
+
+        .section h2 em {
+            font: 1.2em "Great Vibes", cursive;
+            color: #ad6b73
+        }
+
+        .lead {
+            max-width: 760px;
+            margin: 0 auto 16px;
+            line-height: 1.65;
+            color: #705766
+        }
+
+        .flourish {
+            color: #b87967;
+            font-size: 24px;
+            letter-spacing: 10px;
+            margin: 0 0 16px
+        }
+
+        .families {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 22px;
+            align-items: center;
+            max-width: 930px;
+            margin: 42px auto
+        }
+
+        .family {
+            position: relative;
+            background: linear-gradient(145deg, #fffaf4, #f4e2d8);
+            border: 1px solid #d6a66f;
+            padding: 32px 20px;
+            box-shadow: 0 15px 35px #31051f18, inset 0 0 0 6px #d9a75d18
+        }
+
+        .family:before {
+            content: "✧";
+            position: absolute;
+            top: 10px;
+            right: 14px;
+            color: #b87967
+        }
+
+        .family h3 {
+            font-size: 30px;
+            color: var(--plum);
+            margin: 8px
+        }
+
+        .family p {
+            margin: 7px;
+            color: #765f6b
+        }
+
+        .family strong {
+            display: block;
+            color: #4a263d
+        }
+
+        .heart {
+            font-size: 37px;
+            color: #b87967
+        }
+
+        .heart small {
+            display: block;
+            font-size: 12px;
+            letter-spacing: 1px
+        }
+
+        .journey {
+            background: radial-gradient(ellipse at top, #fff8f1, #ead6d0 80%)
+        }
+
+        .photos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+            max-width: 920px;
+            margin: 38px auto
+        }
+
+        .photo {
+            min-height: 290px;
+            background: #ead5c8;
+            border: 8px solid #fff7ed;
+            outline: 1px solid #c58a75;
+            box-shadow: 0 14px 32px #31051f25;
+            overflow: hidden
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            min-height: 290px;
+            object-fit: cover;
+            display: block
+        }
+
+        .photo-fallback {
+            padding: 30px;
+            text-align: center;
+            color: #76566b
+        }
+
+        .countdown {
+            background: radial-gradient(ellipse at center, #681b45, #260317 78%);
+            color: #ffe8c4;
+            text-align: center;
+            padding: 65px 15px;
+            border-block: 2px solid var(--gold)
+        }
+
+        .countdown h2 {
+            font-size: clamp(34px, 4vw, 46px);
+            font-weight: 500;
+            margin: 5px 0 25px;
+            color: #ffe2b0
+        }
+
+        .timer {
+            display: flex;
+            justify-content: center;
+            gap: clamp(18px, 4vw, 50px)
+        }
+
+        .timer strong {
+            display: block;
+            font-size: clamp(38px, 5vw, 62px);
+            font-weight: 500;
+            color: #ffe0a0
+        }
+
+        .timer span {
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase
+        }
+
+        .events {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 14px;
+            margin-top: 40px
+        }
+
+        .event {
+            position: relative;
+            min-height: 235px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            padding: 23px 12px;
+            background: linear-gradient(145deg, #fff9f2, #f1ddd3);
+            border: 1px solid #d4a16c;
+            outline: 1px solid #d4a16c55;
+            outline-offset: 3px;
+            box-shadow: 0 12px 28px #31051f16;
+            transition: .25s
+        }
+
+        .event:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 18px 34px #31051f26
+        }
+
+        .event:before {
+            content: "✧";
+            position: absolute;
+            top: 8px;
+            right: 12px;
+            color: #b87967
+        }
+
+        .event.dark {
+            background: linear-gradient(145deg, #551039, #2d061e);
+            color: #ffe6bd;
+            border-color: #e2b35d
+        }
+
+        .event .day {
+            font-size: 47px;
+            line-height: 1;
+            color: #9b5360
+        }
+
+        .event.dark .day {
+            color: #ffe0a0
+        }
+
+        .event small {
+            font-size: 11px;
+            letter-spacing: 1.5px
+        }
+
+        .event h3 {
+            font-size: 20px;
+            line-height: 1.2;
+            margin: 15px 0 8px
+        }
+
+        .event p {
+            font: 13px "Noto Serif Devanagari", serif;
+            margin: 0
+        }
+
+        .reception {
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            padding: 78px 20px;
+            background: radial-gradient(ellipse at center, #681b45, #260317 80%);
+            color: #ffe9c9;
+            border-block: 2px solid var(--gold)
+        }
+
+        .reception:before,
+        .reception:after {
+            content: "❧";
+            position: absolute;
+            top: 10px;
+            font-size: 125px;
+            color: #e3b65d;
+            opacity: .15
+        }
+
+        .reception:before {
+            left: 4%
+        }
+
+        .reception:after {
+            right: 4%;
+            transform: scaleX(-1)
+        }
+
+        .reception h2 {
+            font-size: clamp(38px, 5vw, 58px);
+            font-weight: 500;
+            margin: 8px;
+            color: #ffe4b0
+        }
+
+        .reception .bigdate {
+            font-size: 43px;
+            color: #f3c985;
+            margin: 17px
+        }
+
+        .reception p {
+            max-width: 680px;
+            margin: 12px auto 22px;
+            line-height: 1.6
+        }
+
+        .venue {
+            background: radial-gradient(ellipse at top, #fff8f1, #ead9ce 80%)
+        }
+
+        .venue-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 45px;
+            align-items: center;
+            max-width: 1080px;
+            margin: auto
+        }
+
+        .venue-card {
+            background: linear-gradient(145deg, #551039, #2c061e);
+            color: #ffe7c1;
+            padding: 40px;
+            border: 1px solid #e0b15e;
+            outline: 1px solid #c58a75;
+            outline-offset: 7px;
+            box-shadow: 0 18px 40px #31051f30
+        }
+
+        .venue-card h2 {
+            color: #ffe5c0
+        }
+
+        .venue-card .hindi {
+            color: #f1c8b6
+        }
+
+        .detail {
+            border-top: 1px solid #bd875e;
+            padding-top: 14px;
+            margin-top: 18px;
+            line-height: 1.6
+        }
+
+        .seal {
+            min-height: 370px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            color: #ffe4b0;
+            border: 2px solid #d8a84f;
+            outline: 1px solid #d8a84f66;
+            outline-offset: 8px;
+            background: radial-gradient(circle, #681b45, #2d061e 72%);
+            box-shadow: 0 0 35px #31051f22, inset 0 0 40px #e3b65d18
+        }
+
+        .seal span {
+            display: block;
+            font: 72px "Great Vibes", cursive
+        }
+
+        .seal small {
+            letter-spacing: 3px
+        }
+
+        .invite {
+            text-align: center;
+            background: radial-gradient(ellipse at center, #fffaf5, #efdcd4);
+            padding: 82px 20px;
+            border-top: 1px solid #d3a16c
+        }
+
+        .invite h2 {
+            font-size: clamp(36px, 4.5vw, 50px);
+            font-weight: 500;
+            color: var(--plum)
+        }
+
+        .couple {
+            font: clamp(42px, 5vw, 56px) "Great Vibes", cursive;
+            color: #a65f70
+        }
+
+        .footer {
+            background: #210316;
+            color: #f1cfa0;
+            text-align: center;
+            padding: 30px 14px;
+            border-top: 2px solid #d4a24f;
+            font-size: 13px;
+            letter-spacing: 1.5px
+        }
+
+        @media(max-width:1000px) {
+            .nav {
+                gap: 11px;
+                font-size: 12px
+            }
+
+            .side-note {
+                display: none
+            }
+
+            .events {
+                grid-template-columns: repeat(3, 1fr)
+            }
+
+            .eye.one {
+                left: 4%
+            }
+
+            .eye.two {
+                right: 4%
+            }
+        }
+
+        @media(max-width:680px) {
+            header {
+                padding: 11px 15px
+            }
+
+            .brand-mark {
+                width: 40px;
+                height: 40px
+            }
+
+            .brand-name {
+                font-size: 26px
+            }
+
+            .brand small {
+                font-size: 9px
+            }
+
+            .menu {
+                display: block
+            }
+
+            .nav {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #260317;
+                padding: 18px;
+                flex-direction: column;
+                border-bottom: 1px solid var(--gold);
+                box-shadow: 0 12px 20px #21031666
+            }
+
+            .nav.open {
+                display: flex
+            }
+
+            .nav a {
+                padding: 7px
+            }
+
+            .hero {
+                min-height: 790px;
+                padding: 75px 13px 90px
+            }
+
+            .hero:before {
+                inset: 11px
+            }
+
+            .hero:after {
+                inset: 20px
+            }
+
+            .arch {
+                top: 80px;
+                width: 96vw;
+                height: 670px
+            }
+
+            .hero-content {
+                padding: 20px 6px
+            }
+
+            .hero h1 {
+                font-size: clamp(34px, 9vw, 48px);
+                letter-spacing: 1px
+            }
+
+            .bride {
+                font-size: 53px
+            }
+
+            .hero-copy {
+                font-size: 18px
+            }
+
+            .eye {
+                width: 48px;
+                height: 48px
+            }
+
+            .eye:after {
+                width: 12px;
+                height: 12px
+            }
+
+            .eye.one {
+                top:25%;
+                left: 7px
+            }
+
+            .eye.two {
+                top: 25%;
+                right: 7px
+            }
+
+            .eye.three {
+                top: 39px;
+                width: 42px;
+                height: 42px
+            }
+
+            .orn {
+                font-size: 34px
+            }
+
+            .orn.a {
+                top: 20px;
+                left: 18px
+            }
+
+            .orn.b {
+                top: 20px;
+                right: 18px
+            }
+
+            .datebox {
+                gap: 13px;
+                padding: 10px
+            }
+
+            .datebox strong {
+                font-size: 48px
+            }
+
+            .datebox span {
+                font-size: 11px
+            }
+
+            .section {
+                padding: 65px 17px
+            }
+
+            .families {
+                grid-template-columns: 1fr;
+                gap: 14px
+            }
+
+            .heart {
+                order: 2
+            }
+
+            .family:last-child {
+                order: 3
+            }
+
+            .photos {
+                grid-template-columns: 1fr;
+                gap: 18px
+            }
+
+            .photo,
+            .photo img {
+                min-height: 230px
+            }
+
+            .events {
+                grid-template-columns: 1fr 1fr;
+                gap: 11px
+            }
+
+            .event {
+                min-height: 195px;
+                padding: 17px 8px
+            }
+
+            .event h3 {
+                font-size: 18px
+            }
+
+            .venue-wrap {
+                grid-template-columns: 1fr;
+                gap: 30px
+            }
+
+            .venue-card {
+                padding: 28px
+            }
+
+            .seal {
+                min-height: 240px
+            }
+
+            .timer {
+                gap: 14px
+            }
+
+            .timer span {
+                font-size: 10px
+            }
+
+            .countdown {
+                padding: 52px 10px
+            }
+
+            .reception:before,
+            .reception:after {
+                font-size: 75px
+            }
+        }
+
+        @media(max-width:380px) {
+            .events {
+                grid-template-columns: 1fr
+            }
+
+            .hero h1 {
+                font-size: 33px
+            }
+
+            .bride {
+                font-size: 46px
+            }
+
+            .timer {
+                gap: 9px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *::before,
+            *::after {
+                scroll-behavior: auto !important;
+                animation: none !important;
+                transition: none !important
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topline"></div>
+    <header>
+        <a class="brand" href="#home"><span class="brand-mark">S<span
+                    style="font-family:'Great Vibes',cursive">&</span>S</span><span><span class="brand-name">Sukrit &
+                    Sanskriti</span><small>THE WEDDING CELEBRATION</small></span></a>
+        <button class="menu" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#home">Home</a><a href="#story">Our Story</a><a href="#journey">Our Journey</a><a
+                href="#events">Wedding Events</a><a href="#reception">Reception</a><a href="#venue">Venue</a><a
+                class="pill" href="#invite">Invitation →</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-bg-pattern"></div>
+            <div class="arch"></div>
+            <span class="orn a">❦</span><span class="orn b">❦</span><span class="orn c">❧</span><span
+                class="orn d">❧</span>
+            <span class="eye one" aria-label="Decorative evil eye"></span><span class="eye two"
+                aria-label="Decorative evil eye"></span><span class="eye three" aria-label="Decorative evil eye"></span>
+            <div class="side-note side-left">A LOVE STORY<br>SINCE<br>12 MARCH 2026</div>
+            <div class="side-note side-right">TOGETHER<br>WITH OUR<br>FAMILIES</div>
+            <div class="hero-content">
+                <p class="ganesh">॥ श्री गणेशाय नमः ॥</p>
+                <p class="eyebrow">TWO FAMILIES · ONE FOREVER</p>
+                <h1>Sukrit Raj Kamal</h1><span class="amp">&</span>
+                <p class="bride">Sanskriti Arya</p>
+                <div class="rule"><span>✦</span></div>
+                <p class="eyebrow">SHUBH VIVAH</p>
+                <p class="hero-copy">With the blessings of our families, please join us as we begin our forever
+                    together.</p>
+                <p class="hindi">दो परिवारों के आशीर्वाद से, हमारे शुभ विवाह में सादर आमंत्रित हैं।</p>
+                <div class="datebox"><span>SATURDAY</span><strong>21</strong><span>NOVEMBER<br>2026</span></div>
+                <a class="gold-btn" href="#journey">Our journey so far ↓</a>
+            </div>
+        </section>
+        <section class="section center" id="story">
+            <p class="flourish">✦ ❧ ✦</p>
+            <p class="kicker">A NOTE FROM OUR HEARTS · दिल से</p>
+            <h2>Two hearts, one <em>beautiful promise</em></h2>
+            <p class="lead">Some moments change the shape of our lives. Ours began with a promise, grew with the
+                blessings of our loved ones, and now leads us to a lifetime together.</p>
+            <p class="hindi">कुछ रिश्ते ऊपरवाला बनाता है, और परिवार उन्हें अपने आशीर्वाद से और भी खूबसूरत बना देते हैं।
+            </p>
+            <div class="families">
+                <article class="family">
+                    <p class="kicker">THE GROOM</p>
+                    <h3>Sukrit Raj Kamal</h3>
+                    <p>Son of</p><strong>Shri Rajeev Rajkamal</strong><strong>& Smt. Reena Bharti</strong>
+                </article>
+                <div class="heart">♥<small>joined by love</small></div>
+                <article class="family">
+                    <p class="kicker">THE BRIDE</p>
+                    <h3>Sanskriti Arya</h3>
+                    <p>Daughter of</p><strong>Shri Shivnandan Arya</strong><strong>& Smt. Kiran Devi</strong>
+                </article>
+            </div>
+        </section>
+        <section class="section journey center" id="journey">
+            <p class="flourish">✦ ❧ ✦</p>
+            <p class="kicker">IT STARTED WITH A YES · एक हाँ से शुरुआत</p>
+            <h2>We got engaged… <em>guess what’s next?</em></h2>
+            <p class="hindi">12 मार्च 2026 — सगाई की एक खूबसूरत याद। अब बारी है सात फेरों और जीवन भर के साथ की।</p>
+            <div class="photos">
+                <div class="photo"><img src="images/engagement-1.png" alt="Sukrit and Sanskriti engagement memory"
+                        onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div class=&quot;photo-fallback&quot;>Add your engagement photo at <b>images/engagement-1.png</b></div>')">
+                </div>
+                <div class="photo"><img src="images/engagement-2.png" alt="A memory from the engagement ceremony"
+                        onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div class=&quot;photo-fallback&quot;>Add your engagement photo at <b>images/engagement-2.png</b></div>')">
+                </div>
+            </div>
+            <p class="lead"><strong>12 March 2026</strong> · We got engaged!<br><strong>21 November 2026</strong> · Now,
+                the wedding!</p>
+            <p class="hindi">और अब शुरू होगा हमारी हमेशा वाली कहानी का अगला अध्याय।</p>
+        </section>
+        <section class="countdown">
+            <p class="kicker" style="color:#f2c9a4">THE BIG DAY IS GETTING CLOSER</p>
+            <h2>Counting down to forever</h2>
+            <div class="timer">
+                <div><strong id="days">--</strong><span>Days</span></div>
+                <div><strong id="hours">--</strong><span>Hours</span></div>
+                <div><strong id="minutes">--</strong><span>Minutes</span></div>
+                <div><strong id="seconds">--</strong><span>Seconds</span></div>
+            </div>
+            <p>21 November 2026 · शनिवार, 21 नवंबर 2026</p>
+        </section>
+        <section class="section center" id="events">
+            <p class="flourish">✦ ❧ ✦</p>
+            <p class="kicker">THE WEDDING FESTIVITIES · शुभ कार्यक्रम</p>
+            <h2>One wedding, <em>many memories</em></h2>
+            <p class="lead">Rituals, laughter, family and love — we can’t wait to celebrate every moment with you.</p>
+            <div class="events">
+                <article class="event">
+                    <div class="day">18</div><small>NOV · WEDNESDAY</small>
+                    <h3>Tilak & Matkor</h3>
+                    <p>तिलक एवं मटकोर</p>
+                </article>
+                <article class="event">
+                    <div class="day">19</div><small>NOV · THURSDAY</small>
+                    <h3>Mandap Chhapan</h3>
+                    <p>मंडप छप्पन</p>
+                </article>
+                <article class="event">
+                    <div class="day">20</div><small>NOV · FRIDAY</small>
+                    <h3>Haldi Kalash, Mehndi & Devpuji</h3>
+                    <p>हल्दी कलश, मेहंदी एवं देवपूजी</p>
+                </article>
+                <article class="event">
+                    <div class="day">21</div><small>NOV · SATURDAY</small>
+                    <h3>Baraat Aagman & Shubh Vivah</h3>
+                    <p>बारात आगमन एवं शुभ विवाह</p>
+                </article>
+                <article class="event dark">
+                    <div class="day">23</div><small>NOV · MONDAY</small>
+                    <h3>Reception</h3>
+                    <p>स्वागत समारोह</p>
+                </article>
+            </div>
+            <p class="hindi" style="margin-top:28px">कार्यक्रमों के समय की जानकारी परिवार द्वारा बाद में जोड़ी जा सकती
+                है।</p>
+        </section>
+        <section class="reception" id="reception">
+            <p class="kicker" style="color:#f4cfaa">A NEW BEGINNING · एक नई शुरुआत</p>
+            <h2>A Celebration of Togetherness</h2>
+            <div class="bigdate">23 November 2026</div>
+            <p>Join us for an evening of love, laughter and blessings as we celebrate the newlyweds. We look forward to
+                celebrating with you.</p>
+            <p class="hindi" style="color:#f4cfaa">आपका स्नेह और आशीर्वाद हमारे लिए अनमोल है।</p>
+            <a class="gold-btn" href="#venue">Venue details ↓</a>
+        </section>
+        <section class="section venue" id="venue">
+            <div class="venue-wrap">
+                <div class="venue-card">
+                    <p class="kicker" style="color:#f0c9b0">COME CELEBRATE WITH US · सादर आमंत्रण</p>
+                    <h2>Meet us where <em>forever begins.</em></h2>
+                    <p class="hindi">आपकी उपस्थिति और आशीर्वाद हमारे लिए अनमोल हैं।</p>
+                    <div class="detail"><strong>Rajendra Palace</strong><br>Khanjahapur, near DCPS School</div>
+                    <div class="detail"><strong>Saturday, 21 November 2026</strong><br>Baraat Aagman & Shubh Vivah</div>
+                    <p style="margin-top:25px"><a class="gold-btn"
+                            href="https://www.google.com/maps/place/23%C2%B039'12.6%22N+85%C2%B017'51.1%22E/@23.6539839,85.2941126,16.63z/data=!4m4!3m3!8m2!3d23.6535022!4d85.2975263?hl=en&entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank" rel="noopener noreferrer">Find my venue ↗</a></p>
+                </div>
+                <div class="seal">
+                    <div><span>S & S</span><small>THE WEDDING CELEBRATION</small>
+                        <p>21 · 11 · 2026</p>
+                        <p class="hindi" style="color:#f1c9ae">शुभ विवाह</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="invite" id="invite">
+            <p class="flourish">✦ ❧ ✦</p>
+            <p class="kicker">WITH LOVE FROM BOTH FAMILIES</p>
+            <h2>Your presence is our blessing.</h2>
+            <p class="couple">Sukrit Raj Kamal & Sanskriti Arya</p>
+            <p class="hindi">सपरिवार पधारकर वर-वधू को अपना स्नेह एवं आशीर्वाद प्रदान करें।</p>
+            <a class="gold-btn"
+                href="https://www.google.com/maps/place/23%C2%B039'12.6%22N+85%C2%B017'51.1%22E/@23.6539839,85.2941126,16.63z/data=!4m4!3m3!8m2!3d23.6535022!4d85.2975263?hl=en&entry=ttu&g_ep=EgoyMDI2MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank" rel="noopener noreferrer">Join the celebration ↗</a>
+        </section>
+    </main>
+    <footer class="footer">SUKRIT RAJ KAMAL & SANSKRITI ARYA · 21 NOVEMBER 2026 · MADE WITH LOVE ♥</footer>
+    <script>
+        const menu = document.querySelector('.menu'), nav = document.querySelector('.nav');
+        menu.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); });
+        nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); menu.setAttribute('aria-expanded', 'false'); }));
+        const wedding = new Date('2026-11-21T19:00:00+05:30').getTime();
+        function tick() { let d = Math.max(0, wedding - Date.now()); const v = [Math.floor(d / 86400000), Math.floor(d % 86400000 / 3600000), Math.floor(d % 3600000 / 60000), Math.floor(d % 60000 / 1000)];['days', 'hours', 'minutes', 'seconds'].forEach((id, i) => document.getElementById(id).textContent = String(v[i]).padStart(2, '0')); }
+        tick(); setInterval(tick, 1000);
+    </script>
+</body>
+
+</html>
